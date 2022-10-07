@@ -1,0 +1,18 @@
+/*  First name : KW
+    Last name : Wong
+    StudID: ### ##1 896
+    Date: Oct. 5, 2022
+*/
+
+/* custom css goes here */
+
+.bottomDiv {
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    background-color: grey;
+    position: fixed;
+    text-align: right;
+    padding-right: 30px;
+    font-family: Verdana, Arial, sans-serif;
+}

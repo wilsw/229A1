@@ -1,0 +1,56 @@
+<!--
+/*  First name : KW
+    Last name : Wong
+    StudID: ### ##1 896
+    Date: Oct. 5, 2022
+*/
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=""UTF-8">
+    <meta name=""viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title><%= title %></title>
+    
+    <!--CSS Section-->
+
+
+    <%- include('partials/header'); %>
+  </head>
+  <body>
+
+
+    <h1>Welcome to the <%= title %> page</h1>
+
+    <!--Script Section -->
+
+
+    this is the contacts page
+
+    <button id="aButton" class="float-left submit-button" > home</button>
+
+    <script type="text/javascript">
+      document.getElementById("aButton").onclick = function (){
+        location.href = "/home"
+        console.log("clicked!");
+      }
+    </script>
+
+<!-->todo, like this form<-->
+    <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+    <label for="connum">Contact Number:</label>
+  <input type="text" id="connum" name="connum"><br><br>
+      <label for="msglbb">Message:</label>
+  <input type="text" id="msglbb" name="msglbb"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+    <%- include('partials/footer'); %>
+  </body>
+</html>
